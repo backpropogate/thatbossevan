@@ -28,13 +28,13 @@ const Hero = () => {
             
             
         </section>
-        <div className= ' w-1/2 flex justify-center items-center sm:items-start  flex-col gap-6  h-full md:px-10  '>
+        <div className= ' w-1/2 flex justify-center items-center sm:items-start  flex-col gap-6  h-full   '>
             <div className='heroTitle'>
             <h1 className=' text-4xl lg:text-5xl font-bold'>ThatBossEvan</h1>
             <img className='crown animate-bounce ' src="/crown.png" alt="" />
             </div>
-            <h3 className= ' text-center sm:text-left text-lg'>
-                "I dont make beats, I create experiences"</h3>
+            <h3 className= ' text-center sm:text-left text-xl whitespace-nowrap'>
+                "I dont make beats,<br/> I create experiences"</h3>
             <div className='flex gap-4 '>
                 <Link href="#">
                 <a className=' primaryButton rounded whitespace-nowrap  '>Shop Beats</a>
