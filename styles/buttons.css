@@ -1,0 +1,25 @@
+.secondaryButton {
+    background:#E2B305 ;
+    padding: 10px 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+}
+.secondaryButton:hover {
+    background: transparent;
+    transform: translateY(-7px);
+    transition: all 0.5s ease-in-out;
+}
+.primaryButton {
+    background: transparent;
+    padding: 10px 20px;
+    
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+}
+.primaryButton:hover {
+    background-color: black;
+    color: white;
+    transform: translateY(-7px);
+    transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,73 @@
+
+  
+  @keyframes battle2 {
+    from {
+      transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+  }
+  @keyframes battle3 {
+    from {
+      transform: rotate(0deg) translateX(100px) rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg) translateX(100px) rotate(360deg);
+    }
+  }
+  @keyframes battle {
+    from {
+      transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+  }
+  .jello {
+    animation: jello 3s ease 0s infinite normal both;
+  }
+  
+  @keyframes jello {
+    0% {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    40% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.15, 0.85, 1);
+    }
+  
+    65% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    75% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    100% {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  .sample {
+    animation: sample 4s ease 0s 1 normal forwards;
+  }
+  @keyframes sample {
+    0% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  
+    100% {
+      opacity: 0;
+      transform: scale(1.4);
+    }
+  }
