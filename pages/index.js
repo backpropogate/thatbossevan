@@ -9,6 +9,7 @@ import { Canvas } from "react-three-fiber";
 import Model from "../components/Model";
 import LicensingInfo from "../components/LicensingInfo";
 import SplashScreen from "../components/SplashScreen";
+import ContactSnip from "../components/ContactSnip";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
     <Player />
    
     <LicensingInfo/>
+    <ContactSnip/>
     
 
     

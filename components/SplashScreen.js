@@ -26,7 +26,7 @@ const SplashScreen = () => {
     
   return (
     <div  className={`${visibility} overlay bg-black flex flex-col items-center  `}>
-      <div className='text-4xl text-white font-extrabold mt-20' >
+      <div className='text-4xl whitespace-nowrap text-white font-extrabold mt-20' >
       <Typewriter className='text-3xl text-white font-bold mt-10'
   options={{
     strings: ['"Did You Sample That?"'],

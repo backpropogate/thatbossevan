@@ -18,10 +18,10 @@
 }
 .crown {
   position: absolute;
-  width: 30.4px;
-  height: 24.75px;
-  top: -1em;
-  left:7em;
+  width:60.4px;
+  height:48.75px;
+  top: -4em;
+  left:6em;
  
 }
 .rightSide {
@@ -139,4 +139,71 @@ section {
   background-color: #8cffa0;
   -webkit-mask-image: url(https://mdn.mozillademos.org/files/12676/star.svg);
   mask-image: url(https://mdn.mozillademos.org/files/12676/star.svg);
+}
+.hamburger {
+  padding: 7px 7px;
+  border-radius: 50%;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.hamburger:hover {
+  background-color: rgb(218, 218, 218);
+}
+
+.visibleNav {
+  position: fixed;
+  left: 0;
+  width: 20em;
+  padding-top: 2em;
+  padding-left: 2em;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  box-shadow: 0 0 16px rgba(0,0,0,.20);
+  display: -webkit-flex;
+  display: flex;
+  z-index: 100;
+  flex-direction: column;
+  justify-content: left;
+  align-content: center;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+ 
+}
+@keyframes myAnim {
+  0% {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.visibleNav ul {
+  list-style: none;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+ 
+}
+.hiddenNav {
+  display: none;
+}
+.closeNav {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: right;
+  padding-right: 1em;
+  cursor: pointer;
+}
+.closeNav:hover{
+  opacity: 0.6;
+}
+.navMain:hover {
+  color:#e2b305 ;
 }
