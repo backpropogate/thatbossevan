@@ -31,7 +31,7 @@ const Hero = () => {
         </section>
         <div className= 'md:ml-10 w-1/2 flex justify-center  flex-col gap-6  h-full    '>
             <div className='heroTitle'>
-            <div className=' text-2xl lg:text-5xl font-bold text-center sm:text-left'>
+            <div className=' text-2xl lg:text-5xl font-bold text-center sm:text-left whitespace-nowrap'>
             <Typewriter className='text-3xl text-white font-bold mt-10'
   options={{
     strings: ['ThatBossEvan', 'Multi Platinum💿',"30 Mil + Views📈", "Billboard Charts🎯"],
@@ -41,7 +41,7 @@ const Hero = () => {
   }}
 />
                 </div>
-            <img className='crown animate-bounce ' src="/crown.png" alt="" />
+          
             </div>
             <h3 className= ' text-center sm:text-left text-xl '>
                 "I dont make beats, I create experiences"</h3>
