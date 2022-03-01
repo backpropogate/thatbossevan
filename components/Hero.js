@@ -34,7 +34,7 @@ const Hero = () => {
             <div className=' text-2xl lg:text-5xl font-bold text-center sm:text-left'>
             <Typewriter className='text-3xl text-white font-bold mt-10'
   options={{
-    strings: ['ThatBossEvan', 'Multi Platinum💿', "Millions of Streams"],
+    strings: ['ThatBossEvan', 'Multi Platinum💿',"30 Mil + Views📈", "Billboard Charts🎯"],
     autoStart: true,
     loop: true,
     delay: 1,

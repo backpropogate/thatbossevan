@@ -1,19 +1,24 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
   return (
     <footer className='flex flex-col bg-black p-16 text-white'>
-      <div className='flex justify-center border-b	'>
-        <ul className='flex mb-14 gap-5 whitespace-nowrap'>
+      <div className='flex justify-around border-b	'>
+        <ul className='flex flex-col mb-14 gap-5 whitespace-nowrap'>
        
-            <li>Main</li>
-            <li>About</li>
-            <li>Tracks</li>
-            <li>Videos</li>
-            <li>Contact</li>
-            <li>Licensing Info </li>
+            <Link href='#'><li>Main</li></Link>
+            <Link href='#'><li>About</li></Link>
+            <Link href='#'><li>Tracks</li></Link>
+            <Link href='#'><li>Videos</li></Link>
+            
         </ul>
-       
+       <ul className='flex flex-col gap-5'>
+       <Link href='#'><li>Contact</li></Link>
+       <Link href='#'><li>Licensing Info </li></Link>
+       <Link href='#'><li>Terms of use</li></Link>
+       <Link href='#'><li>Privacy Policy</li></Link>
+       </ul>
         </div>
         <div>
         <ul className=' flex justify-center gap-9 mt-6' >
